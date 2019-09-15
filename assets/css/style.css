@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(11, 11, 11)
+}
+
+.section {
+    background-color: rgb(194, 194, 194)
+}
+
+.brand-logo {
+    margin-left: 10px;
+}
+
+.parallax-container {
+    height: 200px;
+  }
+      
