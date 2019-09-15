@@ -3,7 +3,11 @@
 Professional portfolio
 
 Inludes:
+
 -Contant info
+
 -Website links
--Starred porject links
+
+-Starred project links
+
 -Resume PDF
