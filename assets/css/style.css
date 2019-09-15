@@ -1,4 +1,5 @@
 body {
+    font-family: 'Libre Franklin', sans-serif;
     background-color: rgb(11, 11, 11)
 }
 
@@ -12,5 +13,21 @@ body {
 
 .parallax-container {
     height: 200px;
-  }
-      
+}
+
+.navButton {
+    align-content: center;
+    text-align: center;
+    color: black;
+    padding-top: 2px;
+}
+
+.infoButton {
+    width: 150px;
+    padding-top: 2px;
+    margin-top: 20px;
+}
+
+.lnkImg {
+    height: 30px;
+}
