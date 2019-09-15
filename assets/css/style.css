@@ -32,6 +32,15 @@ body {
     height: 30px;
 }
 
+.card-image {
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.page-copyright {
+    padding-bottom: 0;
+}
+
 .hover-animation:hover {
     text-shadow: 1px 1px 5px rgb(175, 77, 240);
     animation: shake .5s ease-in-out;
@@ -42,17 +51,39 @@ body {
 }
 
 @keyframes shake {
-    0% {transform:  rotate(2deg)}
-    25% {transform:  rotate(-2deg)}
-    50% {transform:  rotate(2deg)}
-    75% {transform:  rotate(-2deg)}
-    100% {transform:  rotate(0deg)}
+    0% {
+        transform: rotate(2deg)
+    }
+
+    25% {
+        transform: rotate(-2deg)
+    }
+
+    50% {
+        transform: rotate(2deg)
+    }
+
+    75% {
+        transform: rotate(-2deg)
+    }
+
+    100% {
+        transform: rotate(0deg)
+    }
 }
 
 @keyframes textPulse {
-    0% {text-shadow:  0 0 2px white}
-    50% {text-shadow:  0 0 20px white}
-    100% {text-shadow:  0 0 2px white}
+    0% {
+        text-shadow: 0 0 2px white
+    }
+
+    50% {
+        text-shadow: 0 0 20px white
+    }
+
+    100% {
+        text-shadow: 0 0 2px white
+    }
 }
 
 @media screen and (min-width: 922px) {
