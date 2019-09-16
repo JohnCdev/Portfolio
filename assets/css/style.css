@@ -3,6 +3,10 @@ body {
     background-color: rgb(11, 11, 11)
 }
 
+strong {
+    font-weight: bold;
+}
+
 .section {
     background-color: rgb(194, 194, 194)
 }
@@ -13,6 +17,11 @@ body {
 
 .parallax-container {
     height: 200px;
+}
+
+.state-logo {
+    margin-right: 50px;
+    height: 100px;
 }
 
 .navButton {
@@ -37,13 +46,50 @@ body {
     overflow: hidden;
 }
 
+.card-content {
+    min-height: 210px;
+}
+
 .page-copyright {
     padding-bottom: 0;
 }
 
 .hover-animation:hover {
-    text-shadow: 1px 1px 5px rgb(175, 77, 240);
+    text-shadow: 1px 1px 5px #ff5722;
     animation: shake .5s ease-in-out;
+}
+
+.carousel {
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+.project-link {
+    font-weight: bold;
+}
+
+.project-link:hover {
+    text-shadow: 0px 0px 3px #ff5722;
+}
+
+.resume-link {
+    font-size: 20px;
+}
+
+.resume-link:hover {
+    text-shadow: 0px 0px 3px #ff5722;
+}
+
+.page-footer {
+    padding-top: 10px;
+}
+
+.footer-container {
+    margin-bottom: 0;
+}
+
+.footer-copyright {
+    margin-left: 20px;
 }
 
 .shake {
