@@ -72,20 +72,6 @@ body {
     }
 }
 
-@keyframes textPulse {
-    0% {
-        text-shadow: 0 0 2px white
-    }
-
-    50% {
-        text-shadow: 0 0 20px white
-    }
-
-    100% {
-        text-shadow: 0 0 2px white
-    }
-}
-
 @media screen and (min-width: 922px) {
     .brand-logo {
         margin-left: 30px;
