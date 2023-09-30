@@ -1,152 +1,152 @@
 body {
-    font-family: 'Libre Franklin', sans-serif;
-    background-color: rgb(11, 11, 11)
+  font-family: "Libre Franklin", sans-serif;
+  background-color: rgb(11, 11, 11);
 }
 
 strong {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .section {
-    background-color: rgb(194, 194, 194)
+  background-color: rgb(194, 194, 194);
 }
 
 .brand-logo {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .parallax-container {
-    height: 200px;
+  height: 200px;
 }
 
 .state-logo {
-    margin-top: 10px;
-    margin-right: 50px;
-    height: 100px;
+  margin-top: 10px;
+  margin-right: 50px;
+  height: 100px;
 }
 
 .navButton {
-    align-content: center;
-    text-align: center;
-    color: black;
-    padding-top: 2px;
+  align-content: center;
+  text-align: center;
+  color: black;
+  padding-top: 2px;
 }
 
 .infoButton {
-    width: 150px;
-    padding-top: 2px;
-    margin-top: 20px;
+  width: 150px;
+  padding-top: 2px;
+  margin-top: 20px;
 }
 
 .lnkImg {
-    height: 30px;
+  height: 30px;
 }
 
 .card-image {
-    max-height: 240px;
-    overflow: hidden;
+  max-height: 240px;
+  overflow: hidden;
 }
 
 .card-content {
-    min-height: 210px;
+  min-height: 210px;
 }
 
 .page-copyright {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 .hover-animation:hover {
-    text-shadow: 1px 1px 5px #ff5722;
-    animation: shake .5s ease-in-out;
+  text-shadow: 1px 1px 5px #ff5722;
+  animation: shake 0.5s ease-in-out;
 }
 
 .carousel {
-    height: 250px;
-    margin-bottom: 50px;
+  height: 250px;
+  margin-bottom: 50px;
 }
 
 .project-link {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .project-link:hover {
-    text-shadow: 0px 0px 3px #ff5722;
+  text-shadow: 0px 0px 3px #ff5722;
 }
 
 .resume-link {
-    font-size: 20px;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .resume-link:hover {
-    text-shadow: 0px 0px 3px #ff5722;
+  text-shadow: 0px 0px 3px #ff5722;
 }
 
 .page-footer {
-    padding-top: 10px;
+  padding-top: 10px;
+  padding-right: 25px;
 }
 
 .footer-container {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .footer-copyright {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .shake {
-    animation: shake .5s ease-in-out;
+  animation: shake 0.5s ease-in-out;
 }
 
 @keyframes shake {
-    0% {
-        transform: rotate(2deg)
-    }
+  0% {
+    transform: rotate(2deg);
+  }
 
-    25% {
-        transform: rotate(-2deg)
-    }
+  25% {
+    transform: rotate(-2deg);
+  }
 
-    50% {
-        transform: rotate(2deg)
-    }
+  50% {
+    transform: rotate(2deg);
+  }
 
-    75% {
-        transform: rotate(-2deg)
-    }
+  75% {
+    transform: rotate(-2deg);
+  }
 
-    100% {
-        transform: rotate(0deg)
-    }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 @media screen and (min-width: 922px) {
-    .brand-logo {
-        margin-left: 30px;
-    }
+  .brand-logo {
+    margin-left: 30px;
+  }
 }
 
 @media screen and (min-width: 1150px) {
-    .card {
-        min-height: 380px;
-    }
+  .card {
+    min-height: 380px;
+  }
 }
 
 @media screen and (max-width: 1150px) {
-    .card {
-        min-height: 550px;
-    }
+  .card {
+    min-height: 550px;
+  }
 }
 
-
 @media screen and (max-width: 705px) {
-    .card {
-        min-height: 600px;
-    }
+  .card {
+    min-height: 600px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .card {
-        min-height: 0px;
-    }
+  .card {
+    min-height: 0px;
+  }
 }
-
